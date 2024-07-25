@@ -1,0 +1,119 @@
+SELECT TOP 10
+    name
+FROM sys.databases WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    name
+FROM sys.tables WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ZoomVideoSignature WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientBillingAddresses WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Payments WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ConsultationParticipants WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ConsultMedications WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ConsultSoapNotes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_ConsultationTypes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_Pharmacy WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_States WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Patients WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Prescriptions WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Providers WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM VendorVideoConsultRoomAttributes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM VendorVideoConsultRoomTokens WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ConsultationParticipants WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM UserChatMapping WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Consultations WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ConsultIntakeResponses WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM sysdiagrams WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PetProfiles WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM StateProductConsultTypes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM TwilioChatHistory WITH (NOLOCK)
+ORDER BY 1 DESC;

@@ -1,0 +1,30 @@
+{
+  "env": "test",
+  "url": "https://patients.test.dctelemedplatform.com/",
+  "email": "raman.therapy@mailinator.com",
+  "memberId": "37387305",
+  "firstName": "luna",
+  "lastName": "jones",
+  "user1": "sherrie@mailinator.com",
+  "user2": "mehako@mailinator.com",
+  "user3": "AutomationTesting",
+  "user4": "stageuisuser",
+  "password": "Test@123",
+  "automationPassword": "Test@1234",
+  "redirectUrl": "https://dialcareb2c.b2clogin.com",
+  "maxWaitForElementInSeconds": 45,
+  "apiUrl": "https://patients-api.test.dctelemedplatform.com",
+  "accessTokenUrl": "https://login.microsoftonline.com/314ad503-775f-4c7b-b5c0-b4de93ad3401/oauth2/v2.0/token",
+  "gmailUserName": "dialcare01@gmail.com",
+  "gmailPassword": "agkrillnrsbphzau",
+  "fromEmail": "no-reply@dctelemedplatform.com",
+  "recipientEmail": "dialcare01@gmail.com",
+  "appConfigConnectionString": "Endpoint=https://dc-saas-test-appconfig01.azconfig.io;Id=NL5l;Secret=on9UWozDorYM8di85pHIeEWRvalrKKphmYFLAtbiaFc=",
+  "keyVaultUrl": "https://dc-saas-test-kv01.vault.azure.net/",
+  "databases": [
+    "ConsultationApi--ConnectionStrings--ConsultationDatabase",
+    "ProviderApi--ConnectionStrings--providerdatabase",
+    "ConfigApi--ConfigurationDatabase",
+    "PatientApi--ConnectionsStrings--MemberDatabase"
+  ]
+}

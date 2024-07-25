@@ -1,0 +1,141 @@
+SELECT TOP 10
+    name
+FROM sys.databases WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    name
+FROM sys.tables WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM FamilyMedicalHistory WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientSurgeryDetails WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientAllergiesDetails WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientMedicationDetails WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientMedicalConditionDetails WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientInformedConsent WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM HealthProfiles WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_PetBreeds WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_PetColors WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM SmartyStreetAddresses WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM LUP_PetTypes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Medications WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Notes WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Notifications WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientAddresses WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientDocuments WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Patients WITH (NOLOCK)
+WHERE EmailAddress LIKE '%mailinator.com'
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientsAuthorization WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PetProfiles WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PreferredProviders WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM GroupLocation WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    FirstName, LastName, ExternalId, MemberId, PatientId, Email, DOB, MobilePhone, Address1, City, [State], ZipCode
+FROM Member WITH (NOLOCK)
+WHERE ExternalId IS NOT NULL AND PatientId IS NOT NULL
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientPharmacy WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM ParentsInfo WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM PatientProviders WITH (NOLOCK)
+ORDER BY 1 DESC;
+
+SELECT TOP 10
+    *
+FROM Member WITH (NOLOCK)
+ORDER BY 1 DESC;

@@ -1,0 +1,23 @@
+{
+  "SelectTop10RecordsOfPatientsOrderByDesc": "SELECT TOP 10 Id,FirstName,LastName,Gender,DOB,EmailAddress,PrimaryContactNumber FROM Patients WITH (NOLOCK) ORDER BY 1 DESC;",
+  "SelectTop10RecordsOfConsultationPaymentsOrderByDesc": "SELECT TOP 10 Id,ConsultationId,MerchantOrderNumber,PaymentAmount,TransactionId,CSVResponseCode FROM Payments WITH (NOLOCK) ORDER BY 1 DESC;",
+  "SelectTop10RecordsOfConfigurationIntakeQuestionnaireOrderByDesc": "SELECT TOP 10 Id,InstanceId,ProductType,Title,Description,WeightageTitle,CreatedOn FROM dbo.IntakeQuestionnaire WITH (NOLOCK) ORDER BY 1 DESC;",
+  "SelectTop10RecordsOfProviderLicensesOrderByDesc": "SELECT TOP 10 Id,ProviderId,StateCode,LicenseNumber,LicenseStatus,ExpirationDate,StatusCode FROM dbo.Licenses WITH (NOLOCK) ORDER BY 1 DESC;",
+  "SelectLatestRecordOfConsultationPayments": "SELECT Id, ConsultationId, PaymentAmount, MerchantOrderNumber, ResponseDate, TransactionId FROM Payments Where ConsultationId=",
+  "UpdateConsultationStatusWithId": "UPDATE Consultations SET ConsultationStatus='InConsultation', ProviderID=131 where Id=",
+  "UpdatePatientsPreferredEnLanguage": "UPDATE Patients SET PreferredLanguage='en' where Id=",
+  "UpdateConsultationStatus": "UPDATE Consultations SET ConsultationStatus ='Active' where Id=",
+  "SelectPatientsById": "select EmailAddress,PreferredLanguage from Patients where Id=",
+  "UpdatePatientsPreferredESLanguage": "UPDATE Patients SET PreferredLanguage='esp' where Id=",
+  "SelectConsultationsById": "select Id,ConsultationStatus,PatientId,CancellationReason from  Consultations Where Id=",
+  "UpdatePatientsByPreferredLanguageEn": "UPDATE Patients SET EmailAddress = 'dialcare01@gmail.com', PreferredLanguage = 'en', DOB =",
+  "UpdatePatientsByPreferredLanguageEs": "UPDATE Patients SET EmailAddress = 'dialcare01@gmail.com', PreferredLanguage = 'esp', DOB =",
+  "UpdatePatientSetupStatus": "truncate table PatientSetupStatus",
+  "UpdatePatientSetupStatusForRegistrationReminderDate": "UPDATE PatientSetupStatus SET RegistrationReminderDate=",
+  "SelectConfigrationGroups": "select  top 10 * from Groups  WITH (NOLOCK) ORDER BY 1 DESC;",
+  "SelectProvidersData": "select top 10 * from Providers  WITH (NOLOCK) ORDER BY 1 DESC;",
+  "UpdateCancelConsultation":"Update Consultations set ConsultationStatus='Cancelled' where PatientId=",
+  "selectPatientProvidersDb":"select top 10 * from PatientProviders order by id desc;",
+  "selectRequestParentalConsentDb":"select PatientId,ConsentTypeId from ConsentEmail;",
+  "SelectPatientMedicationDetails":"select top 10 * from PatientMedicationDetails order by 1 desc;"
+}
